@@ -1,0 +1,97 @@
+/* Sofia overflow utilities — breakpoints sync with sofia-breakpoints.css */
+
+/* Base (default / xs) */
+.sofia-overflow-auto { overflow: auto !important; }
+.sofia-overflow-x-auto { overflow-x: auto !important; }
+.sofia-overflow-y-auto { overflow-y: auto !important; }
+.sofia-overflow-scroll { overflow: scroll !important; }
+.sofia-overflow-x-scroll { overflow-x: scroll !important; }
+.sofia-overflow-y-scroll { overflow-y: scroll !important; }
+.sofia-overflow-hidden { overflow: hidden !important; }
+.sofia-overflow-x-hidden { overflow-x: hidden !important; }
+.sofia-overflow-y-hidden { overflow-y: hidden !important; }
+.sofia-overflow-visible { overflow: visible !important; }
+.sofia-overflow-x-visible { overflow-x: visible !important; }
+.sofia-overflow-y-visible { overflow-y: visible !important; }
+
+/* Explicit xs aliases */
+.sofia-overflow-xs-auto { overflow: auto !important; }
+.sofia-overflow-xs-scroll { overflow: scroll !important; }
+.sofia-overflow-xs-hidden { overflow: hidden !important; }
+.sofia-overflow-xs-visible { overflow: visible !important; }
+
+@media (min-width: 576px) {
+  .sofia-overflow-sm-auto { overflow: auto !important; }
+  .sofia-overflow-x-sm-auto { overflow-x: auto !important; }
+  .sofia-overflow-y-sm-auto { overflow-y: auto !important; }
+  .sofia-overflow-sm-scroll { overflow: scroll !important; }
+  .sofia-overflow-x-sm-scroll { overflow-x: scroll !important; }
+  .sofia-overflow-y-sm-scroll { overflow-y: scroll !important; }
+  .sofia-overflow-sm-hidden { overflow: hidden !important; }
+  .sofia-overflow-x-sm-hidden { overflow-x: hidden !important; }
+  .sofia-overflow-y-sm-hidden { overflow-y: hidden !important; }
+  .sofia-overflow-sm-visible { overflow: visible !important; }
+  .sofia-overflow-x-sm-visible { overflow-x: visible !important; }
+  .sofia-overflow-y-sm-visible { overflow-y: visible !important; }
+}
+
+@media (min-width: 768px) {
+  .sofia-overflow-md-auto { overflow: auto !important; }
+  .sofia-overflow-x-md-auto { overflow-x: auto !important; }
+  .sofia-overflow-y-md-auto { overflow-y: auto !important; }
+  .sofia-overflow-md-scroll { overflow: scroll !important; }
+  .sofia-overflow-x-md-scroll { overflow-x: scroll !important; }
+  .sofia-overflow-y-md-scroll { overflow-y: scroll !important; }
+  .sofia-overflow-md-hidden { overflow: hidden !important; }
+  .sofia-overflow-x-md-hidden { overflow-x: hidden !important; }
+  .sofia-overflow-y-md-hidden { overflow-y: hidden !important; }
+  .sofia-overflow-md-visible { overflow: visible !important; }
+  .sofia-overflow-x-md-visible { overflow-x: visible !important; }
+  .sofia-overflow-y-md-visible { overflow-y: visible !important; }
+}
+
+@media (min-width: 1024px) {
+  .sofia-overflow-lg-auto { overflow: auto !important; }
+  .sofia-overflow-x-lg-auto { overflow-x: auto !important; }
+  .sofia-overflow-y-lg-auto { overflow-y: auto !important; }
+  .sofia-overflow-lg-scroll { overflow: scroll !important; }
+  .sofia-overflow-x-lg-scroll { overflow-x: scroll !important; }
+  .sofia-overflow-y-lg-scroll { overflow-y: scroll !important; }
+  .sofia-overflow-lg-hidden { overflow: hidden !important; }
+  .sofia-overflow-x-lg-hidden { overflow-x: hidden !important; }
+  .sofia-overflow-y-lg-hidden { overflow-y: hidden !important; }
+  .sofia-overflow-lg-visible { overflow: visible !important; }
+  .sofia-overflow-x-lg-visible { overflow-x: visible !important; }
+  .sofia-overflow-y-lg-visible { overflow-y: visible !important; }
+}
+
+@media (min-width: 1280px) {
+  .sofia-overflow-xl-auto { overflow: auto !important; }
+  .sofia-overflow-x-xl-auto { overflow-x: auto !important; }
+  .sofia-overflow-y-xl-auto { overflow-y: auto !important; }
+  .sofia-overflow-xl-scroll { overflow: scroll !important; }
+  .sofia-overflow-x-xl-scroll { overflow-x: scroll !important; }
+  .sofia-overflow-y-xl-scroll { overflow-y: scroll !important; }
+  .sofia-overflow-xl-hidden { overflow: hidden !important; }
+  .sofia-overflow-x-xl-hidden { overflow-x: hidden !important; }
+  .sofia-overflow-y-xl-hidden { overflow-y: hidden !important; }
+  .sofia-overflow-xl-visible { overflow: visible !important; }
+  .sofia-overflow-x-xl-visible { overflow-x: visible !important; }
+  .sofia-overflow-y-xl-visible { overflow-y: visible !important; }
+}
+
+@media (min-width: 1536px) {
+  .sofia-overflow-xx-auto { overflow: auto !important; }
+  .sofia-overflow-x-xx-auto { overflow-x: auto !important; }
+  .sofia-overflow-y-xx-auto { overflow-y: auto !important; }
+  .sofia-overflow-xx-scroll { overflow: scroll !important; }
+  .sofia-overflow-x-xx-scroll { overflow-x: scroll !important; }
+  .sofia-overflow-y-xx-scroll { overflow-y: scroll !important; }
+  .sofia-overflow-xx-hidden { overflow: hidden !important; }
+  .sofia-overflow-x-xx-hidden { overflow-x: hidden !important; }
+  .sofia-overflow-y-xx-hidden { overflow-y: hidden !important; }
+  .sofia-overflow-xx-visible { overflow: visible !important; }
+  .sofia-overflow-x-xx-visible { overflow-x: visible !important; }
+  .sofia-overflow-y-xx-visible { overflow-y: visible !important; }
+}
+

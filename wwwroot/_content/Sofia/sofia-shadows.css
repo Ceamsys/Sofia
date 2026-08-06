@@ -1,0 +1,43 @@
+/* Sofia elevation / shadow scale */
+
+.sofia-theme-root,
+:root,
+[data-sofia-theme="light"] {
+    --sofia-shadow-0: none;
+    --sofia-shadow-1: 0 1px 2px rgba(15, 23, 42, 0.06);
+    --sofia-shadow-2: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+    --sofia-shadow-3: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+    --sofia-shadow-4: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -4px rgba(15, 23, 42, 0.06);
+    --sofia-shadow-5: 0 14px 20px -4px rgba(15, 23, 42, 0.12), 0 6px 10px -5px rgba(15, 23, 42, 0.08);
+    --sofia-shadow-6: 0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 12px -6px rgba(15, 23, 42, 0.08);
+    --sofia-shadow-7: 0 24px 32px -6px rgba(15, 23, 42, 0.14), 0 10px 16px -7px rgba(15, 23, 42, 0.1);
+    --sofia-shadow-8: 0 28px 40px -8px rgba(15, 23, 42, 0.16), 0 12px 20px -8px rgba(15, 23, 42, 0.1);
+    --sofia-shadow-9: 0 32px 48px -10px rgba(15, 23, 42, 0.18), 0 14px 24px -10px rgba(15, 23, 42, 0.12);
+    --sofia-shadow-10: 0 40px 56px -12px rgba(15, 23, 42, 0.2), 0 16px 28px -12px rgba(15, 23, 42, 0.14);
+}
+
+[data-sofia-theme="dark"] {
+    --sofia-shadow-0: none;
+    --sofia-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --sofia-shadow-2: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.28);
+    --sofia-shadow-3: 0 4px 6px -1px rgba(0, 0, 0, 0.45), 0 2px 4px -2px rgba(0, 0, 0, 0.35);
+    --sofia-shadow-4: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+    --sofia-shadow-5: 0 14px 20px -4px rgba(0, 0, 0, 0.55), 0 6px 10px -5px rgba(0, 0, 0, 0.42);
+    --sofia-shadow-6: 0 20px 25px -5px rgba(0, 0, 0, 0.58), 0 8px 12px -6px rgba(0, 0, 0, 0.45);
+    --sofia-shadow-7: 0 24px 32px -6px rgba(0, 0, 0, 0.6), 0 10px 16px -7px rgba(0, 0, 0, 0.48);
+    --sofia-shadow-8: 0 28px 40px -8px rgba(0, 0, 0, 0.62), 0 12px 20px -8px rgba(0, 0, 0, 0.5);
+    --sofia-shadow-9: 0 32px 48px -10px rgba(0, 0, 0, 0.65), 0 14px 24px -10px rgba(0, 0, 0, 0.52);
+    --sofia-shadow-10: 0 40px 56px -12px rgba(0, 0, 0, 0.7), 0 16px 28px -12px rgba(0, 0, 0, 0.55);
+}
+
+.sofia-shadow-0 { box-shadow: var(--sofia-shadow-0) !important; }
+.sofia-shadow-1 { box-shadow: var(--sofia-shadow-1) !important; }
+.sofia-shadow-2 { box-shadow: var(--sofia-shadow-2) !important; }
+.sofia-shadow-3 { box-shadow: var(--sofia-shadow-3) !important; }
+.sofia-shadow-4 { box-shadow: var(--sofia-shadow-4) !important; }
+.sofia-shadow-5 { box-shadow: var(--sofia-shadow-5) !important; }
+.sofia-shadow-6 { box-shadow: var(--sofia-shadow-6) !important; }
+.sofia-shadow-7 { box-shadow: var(--sofia-shadow-7) !important; }
+.sofia-shadow-8 { box-shadow: var(--sofia-shadow-8) !important; }
+.sofia-shadow-9 { box-shadow: var(--sofia-shadow-9) !important; }
+.sofia-shadow-10 { box-shadow: var(--sofia-shadow-10) !important; }

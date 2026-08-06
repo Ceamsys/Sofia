@@ -1,0 +1,77 @@
+/* Sofia display utilities — keep breakpoints in sync with sofia-breakpoints.css / SofiaColumn */
+
+/* Base (default / xs) */
+.sofia-display-none { display: none !important; }
+.sofia-display-block { display: block !important; }
+.sofia-display-inline { display: inline !important; }
+.sofia-display-inline-block { display: inline-block !important; }
+.sofia-display-flex { display: flex !important; }
+.sofia-display-inline-flex { display: inline-flex !important; }
+.sofia-display-grid { display: grid !important; }
+.sofia-display-inline-grid { display: inline-grid !important; }
+
+@media (min-width: 576px) {
+  .sofia-display-sm-none { display: none !important; }
+  .sofia-display-sm-block { display: block !important; }
+  .sofia-display-sm-inline { display: inline !important; }
+  .sofia-display-sm-inline-block { display: inline-block !important; }
+  .sofia-display-sm-flex { display: flex !important; }
+  .sofia-display-sm-inline-flex { display: inline-flex !important; }
+  .sofia-display-sm-grid { display: grid !important; }
+  .sofia-display-sm-inline-grid { display: inline-grid !important; }
+}
+
+@media (min-width: 768px) {
+  .sofia-display-md-none { display: none !important; }
+  .sofia-display-md-block { display: block !important; }
+  .sofia-display-md-inline { display: inline !important; }
+  .sofia-display-md-inline-block { display: inline-block !important; }
+  .sofia-display-md-flex { display: flex !important; }
+  .sofia-display-md-inline-flex { display: inline-flex !important; }
+  .sofia-display-md-grid { display: grid !important; }
+  .sofia-display-md-inline-grid { display: inline-grid !important; }
+}
+
+@media (min-width: 1024px) {
+  .sofia-display-lg-none { display: none !important; }
+  .sofia-display-lg-block { display: block !important; }
+  .sofia-display-lg-inline { display: inline !important; }
+  .sofia-display-lg-inline-block { display: inline-block !important; }
+  .sofia-display-lg-flex { display: flex !important; }
+  .sofia-display-lg-inline-flex { display: inline-flex !important; }
+  .sofia-display-lg-grid { display: grid !important; }
+  .sofia-display-lg-inline-grid { display: inline-grid !important; }
+}
+
+@media (min-width: 1280px) {
+  .sofia-display-xl-none { display: none !important; }
+  .sofia-display-xl-block { display: block !important; }
+  .sofia-display-xl-inline { display: inline !important; }
+  .sofia-display-xl-inline-block { display: inline-block !important; }
+  .sofia-display-xl-flex { display: flex !important; }
+  .sofia-display-xl-inline-flex { display: inline-flex !important; }
+  .sofia-display-xl-grid { display: grid !important; }
+  .sofia-display-xl-inline-grid { display: inline-grid !important; }
+}
+
+@media (min-width: 1536px) {
+  .sofia-display-xx-none { display: none !important; }
+  .sofia-display-xx-block { display: block !important; }
+  .sofia-display-xx-inline { display: inline !important; }
+  .sofia-display-xx-inline-block { display: inline-block !important; }
+  .sofia-display-xx-flex { display: flex !important; }
+  .sofia-display-xx-inline-flex { display: inline-flex !important; }
+  .sofia-display-xx-grid { display: grid !important; }
+  .sofia-display-xx-inline-grid { display: inline-grid !important; }
+}
+
+
+/* Explicit xs aliases (same as base — applies from 0px up) */
+.sofia-display-xs-none { display: none !important; }
+.sofia-display-xs-block { display: block !important; }
+.sofia-display-xs-inline { display: inline !important; }
+.sofia-display-xs-inline-block { display: inline-block !important; }
+.sofia-display-xs-flex { display: flex !important; }
+.sofia-display-xs-inline-flex { display: inline-flex !important; }
+.sofia-display-xs-grid { display: grid !important; }
+.sofia-display-xs-inline-grid { display: inline-grid !important; }

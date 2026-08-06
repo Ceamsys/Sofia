@@ -1,0 +1,35 @@
+/* Sofia responsive breakpoints — keep in sync with SofiaColumn media queries / SofiaBreakpoints.cs */
+
+.sofia-theme-root,
+:root {
+    --sofia-breakpoint-sm: 576px;
+    --sofia-breakpoint-md: 768px;
+    --sofia-breakpoint-lg: 1024px;
+    --sofia-breakpoint-xl: 1280px;
+    --sofia-breakpoint-xx: 1536px;
+}
+
+/* Live badge: shows the active breakpoint name via CSS only */
+.sofia-bp-active::after {
+    content: "xs (< 576px)";
+}
+
+@media (min-width: 576px) {
+    .sofia-bp-active::after { content: "sm (≥ 576px)"; }
+}
+
+@media (min-width: 768px) {
+    .sofia-bp-active::after { content: "md (≥ 768px)"; }
+}
+
+@media (min-width: 1024px) {
+    .sofia-bp-active::after { content: "lg (≥ 1024px)"; }
+}
+
+@media (min-width: 1280px) {
+    .sofia-bp-active::after { content: "xl (≥ 1280px)"; }
+}
+
+@media (min-width: 1536px) {
+    .sofia-bp-active::after { content: "xx (≥ 1536px)"; }
+}

@@ -1,0 +1,28 @@
+/* Typography utilities (transforms, wrap) + text color tokens helpers */
+
+.sofia-text-capitalize {
+    text-transform: capitalize;
+}
+
+.sofia-text-uppercase {
+    text-transform: uppercase;
+}
+
+.sofia-text-lowercase {
+    text-transform: lowercase;
+}
+
+.sofia-text-wrap {
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.sofia-text-nowrap {
+    white-space: nowrap;
+}
+
+.sofia-text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
