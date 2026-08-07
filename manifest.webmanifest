@@ -1,6 +1,6 @@
 {
-  "name": "WebAssembly",
-  "short_name": "WebAssembly",
+  "name": "WebClientApp",
+  "short_name": "WebClientApp",
   "id": "./",
   "start_url": "./",
   "display": "standalone",

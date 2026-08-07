@@ -4,23 +4,20 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebAssembly</title>
+    <title>WebClientApp</title>
     <base href="/" />
-    <link href="_framework/dotnet.1e7c7h3r4j.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-lxQh2NVm4+azVjhwULsMp68YsEEtgr/AcxF+oBmvoAY=" />
+    <link href="_framework/dotnet.egqglomb3n.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-7p7MjQ7wvfQaTlEZm0cNVzzRk4qr8JuZ78VRelF56oo=" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="faviconapp.png" />
-    <link href="WebAssembly.styles.css" rel="stylesheet" />
-    <link href="_content/Sofia/Sofia.bundle.scp.css" rel="stylesheet" />
-    <link href="_content/Sofia/sofia.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="WebClientApp.styles.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.w3qd1tpl0e.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.1e7c7h3r4j.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.egqglomb3n.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.puryxhmhq9.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.web2r9gqbh.js"
   },
@@ -28,8 +25,8 @@
   "integrity": {
     "./_framework/blazor.webassembly.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
     "./_framework/blazor.webassembly.w3qd1tpl0e.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
-    "./_framework/dotnet.1e7c7h3r4j.js": "sha256-lxQh2NVm4+azVjhwULsMp68YsEEtgr/AcxF+oBmvoAY=",
-    "./_framework/dotnet.js": "sha256-lxQh2NVm4+azVjhwULsMp68YsEEtgr/AcxF+oBmvoAY=",
+    "./_framework/dotnet.egqglomb3n.js": "sha256-7p7MjQ7wvfQaTlEZm0cNVzzRk4qr8JuZ78VRelF56oo=",
+    "./_framework/dotnet.js": "sha256-7p7MjQ7wvfQaTlEZm0cNVzzRk4qr8JuZ78VRelF56oo=",
     "./_framework/dotnet.native.js": "sha256-gQbHHzCnWx8iDOC65EKbql7bEltJkfao7lmkAbIRajw=",
     "./_framework/dotnet.native.puryxhmhq9.js": "sha256-gQbHHzCnWx8iDOC65EKbql7bEltJkfao7lmkAbIRajw=",
     "./_framework/dotnet.runtime.js": "sha256-SOUHEQ3FhDAibBSR2u90NWZpoBjPuWRmH0BAATUlhJU=",
@@ -52,18 +49,8 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script src="_content/Sofia/sofia.js"></script>
     <script src="_framework/blazor.webassembly.w3qd1tpl0e.js"></script>
-    <script>
-        // Avoid stale WASM/DLL cache during local development.
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(regs => {
-                for (const reg of regs) {
-                    reg.unregister();
-                }
-            });
-        }
-    </script>
+    <script>navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });</script>
 </body>
 
 </html>
